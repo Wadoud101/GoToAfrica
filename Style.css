@@ -56,7 +56,25 @@ nav{
 
 .icon i{
     font-size: 25px;
+    
+}
+.icon{
+    transition: transform 0.5s;
+    cursor: pointer;
 
+}
+
+.icon:hover{
+    transform: translatey(-8px);
+}
+
+.logo{
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: translatey(8px);
 }
 
 /* Row   */
@@ -123,5 +141,11 @@ nav{
     border-radius: 30px;
     margin-top: 5px;
     margin-left: 70%;
+    transition: transform 0.5s;
+    cursor: pointer;
 
+ }
+
+ .btn:hover{
+    transform: translateY(-7px);
  }
